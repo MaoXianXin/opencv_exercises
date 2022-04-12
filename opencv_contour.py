@@ -5,14 +5,13 @@
 # 3.取边缘点
 # 4.用fillPoly进行填充
 
-from importlib.resources import path
 import cv2
 import numpy as np
 from pre_process_image import preprocess_image
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--img_path', type=str, default='/home/mao/Documents/test/test1/ian1980_label.png', help='test image path')
+parser.add_argument('--img_path', type=str, default='/home/mao/Documents/test/test1/ian1980_label.png', help='input image path')
 opt = parser.parse_args()
 origin_img = cv2.imread(opt.img_path)
 
