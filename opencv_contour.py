@@ -11,7 +11,12 @@ from pre_process_image import preprocess_image
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--img_path', type=str, default='/home/mao/Documents/test/test1/ian1980_label.png', help='input image path')
+parser.add_argument(
+    "--img_path",
+    type=str,
+    default="/home/mao/Documents/test/test1/ian1980_label.png",
+    help="input image path",
+)
 opt = parser.parse_args()
 origin_img = cv2.imread(opt.img_path)
 
