@@ -12,13 +12,13 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     "--img_path",
     type=str,
-    default="/home/mao/Documents/github_repo/image_similarity_faiss/1.png",
+    default="./1.png",
     help="input image path",
 )
 parser.add_argument(
     "--img_save_path",
     type=str,
-    default="/home/mao/Documents/github_repo/image_similarity_faiss/1-counterpart.png",
+    default="./1-counterpart.png",
     help="input image path",
 )
 opt = parser.parse_args()

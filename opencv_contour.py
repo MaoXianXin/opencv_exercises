@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     "--img_path",
     type=str,
-    default="/home/mao/Documents/test/test1/ian1980_label.png",
+    default="./ian1980_label.png",
     help="input image path",
 )
 opt = parser.parse_args()
