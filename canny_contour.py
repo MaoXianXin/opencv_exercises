@@ -2,7 +2,7 @@
 # 1. 锐化图片
 # 2. 用Canny算子进行边缘检测
 # 3. 进行形态学膨胀操作
-# 4. findContours以及drawContours, 另外我把模糊区域保存到本地的3-1.jpg了
+# 4. findContours以及drawContours, 另外我把模糊区域保存到本地了
 
 import cv2
 import numpy as np
