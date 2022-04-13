@@ -1,4 +1,4 @@
-# 关于第二道题，目前我只能做到这种程度，尽力了
+# 关于第二道题，目前我只能做到这种程度，尽力了. 细节可以参考这个回答: How do I detect and remove blurred background from image
 # 1. 锐化图片
 # 2. 用Canny算子进行边缘检测
 # 3. 进行形态学膨胀操作
