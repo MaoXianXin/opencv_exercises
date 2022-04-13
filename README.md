@@ -1,5 +1,3 @@
-image_similarity_faiss
-
 # 求包络线并填充
 运行下面的命令即可:
 ```
